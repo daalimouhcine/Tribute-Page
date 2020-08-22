@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background:linear-gradient(450deg, rgb(119, 119, 119) 0px , rgb(187, 187, 187) 500px , rgb(255, 255, 255) 2000px);
+}
+
+#main {
+    display:block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding:0.5vmax 2vmax;
+    margin: 25px 10px ;
+    text-align: center;
+    
+}
+
+#main #title {
+    border-radius: 15px;
+    font-size: 2vmax;
+    padding: 20px;
+    height: 100%;
+    margin: 10px auto; 
+}
+
+#img-div {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 2vmax;
+    margin: 2vmax 0px;
+    background-color: lightgray;
+}
+#image {
+    width: 40vmax;
+    margin: 10px auto;
+}
+
+#img-caption {
+    padding:auto 20px;
+    margin:0px 10vmax;
+    font-size: 1.5vmax;
+}
+
+#img-caption:first-letter {
+    font-size: 2vmax;
+    color:rgb(65, 72, 78);
+}
+
+
+#tribute-info {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+}
+#tribute-info article {
+    text-align: left;
+    padding:0px 10vmax;
+}
+
+#tribute-info h2 {
+    text-align: center;
+    margin: 6vmax auto   ;
+}
+
+#tribute-info h3 {
+    background-color:lightskyblue;
+    margin: 2vmax 6vmax;
+    border-radius: 15px;
+    text-align: center;
+    padding: 2vmax;
+}
+
+#tribute-info ul {
+    margin: 1vmax 10vw;
+    font-size: 2.7vmin;
+    line-height: 170%;
+
+
+}
+
+#tribute-info hr {
+    height: 4px;
+    width: 50%;
+    margin: 6vmax auto;
+    border:1px solid lightseagreen;
+    border-radius: 25px;
+    background-color: rgb(12, 127, 199);
+}
+
+
+
+#video {
+    text-align: center;
+
+}
+
+#video  iframe{
+    text-align: center;
+    margin: 5vmax 0px ;
+    width: 90vmin;
+    height: 50vmin;
+}
+
+#video p {
+    font-size: 2.8vmin;
+    margin-bottom: 5vmax;
+    font-style: oblique;
+    margin-top: 10px;
+    line-height: 150%;
+}
+#video p::first-letter {
+    font-size: 130%;
+}
+
+#video p a {
+    color: midnightblue;
+    text-decoration: none;
+
+}
+
+
+@media (max-width: 700px) {
+
+    
+    #img-caption {
+        padding:auto 20px;
+        margin:0px 0vmax;
+        font-size: 1.9vmax;
+    }
+
+    #tribute-info h2 {
+        text-align: center;
+        margin:60px -70px;
+        font-size: 3vmax;
+    }
+
+    #tribute-info h3 {
+        margin: 2vmax 0vmax;
+
+    }
+
+    #tribute-info ul {
+        margin:1vmax -10vmax 1vmax -0vmax;
+        font-size: 4vmin;
+        line-height: 170%;
+    }
+    #tribute-info ul ul{
+        margin:1vmax 1vmax 1vmax 5vmax;
+        font-size: 3.5vmin;
+
+    }
+    
+    #tribute-info hr {
+        width: 100%;
+
+    }
+
+    #video  iframe{
+        text-align: center;
+        margin: 0vmax -300px ;
+        width: 40vmax;
+        height: 25vmax;
+    }
+}
