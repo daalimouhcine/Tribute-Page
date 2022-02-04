@@ -16,7 +16,6 @@ body {
     padding:0.5vmax 2vmax;
     margin: 25px 10px ;
     text-align: center;
-    
 }
 
 #main #title {
@@ -40,14 +39,14 @@ body {
 }
 
 #img-caption {
-    padding:auto 20px;
-    margin:0px 10vmax;
+    padding: auto 20px;
+    margin: 0px 10vmax;
     font-size: 1.5vmax;
 }
 
 #img-caption:first-letter {
     font-size: 2vmax;
-    color:rgb(65, 72, 78);
+    color: rgb(65, 72, 78);
 }
 
 
@@ -67,7 +66,7 @@ body {
 }
 
 #tribute-info h3 {
-    background-color:lightskyblue;
+    background-color: lightskyblue;
     margin: 2vmax 6vmax;
     border-radius: 15px;
     text-align: center;
